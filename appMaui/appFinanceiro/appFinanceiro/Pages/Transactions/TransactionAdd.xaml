@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="appFinanceiro.Pages.Transactions.TransactionAdd"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Nova Transação">
+    <StackLayout Padding="5">
+        <Border
+            Margin="15"
+            Padding="15"
+            BackgroundColor="Black"
+            StrokeShape="RoundRectangle 10,10,10,10">
+            <Grid ColumnDefinitions="*,20" RowDefinitions="*">
+                <Label
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    HorizontalOptions="Center"
+                    Text="Novo"
+                    TextColor="White"
+                    VerticalOptions="Center" />
+                <Image
+                    Grid.Column="1"
+                    HorizontalOptions="Center"
+                    Source="close.png"
+                    WidthRequest="17">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+            </Grid>
+        </Border>
+
+        <Label
+            x:Name="LabelError"
+            IsVisible="False"
+            TextColor="Red" />
+        <Grid
+            Margin="30,10"
+            ColumnDefinitions="*,*"
+            RowDefinitions="*">
+            <RadioButton
+                x:Name="RadioIncome"
+                Grid.Column="0"
+                Content="Receita"
+                IsChecked="True" />
+            <RadioButton
+                x:Name="RadioExpense"
+                Grid.Column="1"
+                Content="Despesa"
+                HorizontalOptions="End" />
+        </Grid>
+
+        <Entry
+            x:Name="EntryName"
+            Margin="15,0"
+            Placeholder="Nome" />
+        <DatePicker x:Name="DatePickerDate" Margin="15,0" />
+        <Entry
+            x:Name="EntryValue"
+            Margin="15,0"
+            Keyboard="Numeric"
+            Placeholder="Valor" />
+        <Button
+            Margin="15,0"
+            Clicked="Validate"
+            HorizontalOptions="Center"
+            Text="Salvar" />
+
+    </StackLayout>
+</ContentPage>
+

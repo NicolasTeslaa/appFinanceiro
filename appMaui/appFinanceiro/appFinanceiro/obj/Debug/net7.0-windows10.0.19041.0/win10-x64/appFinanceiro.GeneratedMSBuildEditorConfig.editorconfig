@@ -28,6 +28,24 @@ build_metadata.AdditionalFiles.ManifestResourceName = appFinanceiro.MainPage.xam
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
+[D:/Git/appFinanceiro/appMaui/appFinanceiro/appFinanceiro/Pages/Transactions/TransactionAdd.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = appFinanceiro.Pages.Transactions.TransactionAdd.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Transactions\TransactionAdd.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Transactions\TransactionAdd.xaml
+
+[D:/Git/appFinanceiro/appMaui/appFinanceiro/appFinanceiro/Pages/Transactions/TransactionEdit.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = appFinanceiro.Pages.Transactions.TransactionEdit.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Transactions\TransactionEdit.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Transactions\TransactionEdit.xaml
+
+[D:/Git/appFinanceiro/appMaui/appFinanceiro/appFinanceiro/Pages/Transactions/TransactionList.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = appFinanceiro.Pages.Transactions.TransactionList.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Transactions\TransactionList.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Transactions\TransactionList.xaml
+
 [D:/Git/appFinanceiro/appMaui/appFinanceiro/appFinanceiro/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = appFinanceiro.Resources.Styles.Colors.xaml

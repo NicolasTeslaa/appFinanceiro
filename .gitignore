@@ -1,0 +1,45 @@
+# Arquivos e pastas de build
+/bin/
+/obj/
+/.vs/
+/packages/
+*.user
+*.suo
+
+# Arquivos temporários e de cache
+*.log
+*.bak
+*.dll
+*.pdb
+*.cache
+*.tmp
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.resharper
+*.resharper.user
+*.suo
+*.testsettings
+*.testhost.dll
+*.testhost.exe
+_TestResults/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+_ReSharper*/
+
+# Outros arquivos a serem ignorados
+*.DS_Store
+Thumbs.db
+*.v2
+*.vsidx
+*.vsidx
+*.1
+*.zip
+*.stamp
+*.stamp
+*.jar
+*.txt
+*.zip

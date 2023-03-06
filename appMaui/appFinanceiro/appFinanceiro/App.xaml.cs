@@ -1,11 +1,15 @@
-﻿namespace appFinanceiro;
+﻿
+
+using appFinanceiro.Pages.Transactions;
+
+namespace appFinanceiro;
 
 public partial class App : Application
 {
-	public App()
+	public App(TransactionList listPage)
 	{
 		InitializeComponent();
 
-		MainPage = new AppShell();
+        MainPage = new NavigationPage(listPage);
 	}
 }

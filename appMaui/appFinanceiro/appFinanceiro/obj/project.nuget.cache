@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "0LrENj0oGSMiZSaC16w5PLrjLW9BNgsUuxjqP5PUm8v/sWQ6b8+VgyxaWUbHjV/HDddIguNarEoDxHTm9+FKMw==",
+  "dgSpecHash": "wgDPQBwFuiUUziyjzwqPoAdCRg7EtrLG2LHhUOCesUQOq7JIoRmZFvhc4O+vViH6tt91PeB+/4hNs5lG6ORe0g==",
   "success": true,
   "projectFilePath": "D:\\Git\\appFinanceiro\\appMaui\\appFinanceiro\\appFinanceiro\\appFinanceiro.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nicol\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\litedb\\5.0.15\\litedb.5.0.15.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
